@@ -1,0 +1,26 @@
+{
+  "title": "We turn ideas into works of art",
+  "subtitle": "The Peculiar Purpose",
+  "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua quis ipsum suspendisse ultrices gravida.",
+  "button": {
+    "link": "/about",
+    "label": "More About Us"
+  },
+  "items": [
+    {
+      "icon": "/img/icons/3.svg",
+      "link": "/services/service-1",
+      "label": "Architecture"
+    },
+    {
+      "icon": "https://sensational-puppy-893ca9.netlify.app/img/icons/lamp.png",
+      "link": "/services/service-2",
+      "label": "Interiors"
+    },
+    {
+      "icon": "/img/icons/5.svg",
+      "link": "/services/service-3",
+      "label": "Planning"
+    }
+  ]
+}

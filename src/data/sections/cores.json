@@ -1,0 +1,44 @@
+{
+  "bg_image": "/img/covers/project3.jpg",
+  "title": "Whole difference",
+  "subtitle": "FAQ's",
+  "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua quis ipsum suspendisse ultrices gravida.",
+  "button": {
+    "link": "/services",
+    "label": "Read More"
+  },
+  "items": [
+    {
+      "title": "What services do you offer as an interior designer?",
+      "text": "We provide a wide range of design services, including space planning, interior design concept creation, furniture selection, lighting design, color consultation, and project management. Whether it's a full renovation, a simple room makeover, or styling for an event, we tailor our services to meet your specific needs."
+    },
+    {
+      "title": "What is your design process?",
+      "text": "We provide a wide range of design services, including space planning, interior design concept creation, furniture selection, lighting design, color consultation, and project management. Whether it's a full renovation, a simple room makeover, or styling for an event, we tailor our services to meet your specific needs."
+    },
+    {
+      "title": "What is your design process?",
+      "text": "Our process typically starts with an initial consultation to understand your needs, budget, and vision. Then, we create a concept, which includes mood boards, sketches, and 3D renderings. Once approved, we handle sourcing, procurement, and coordination of contractors, ensuring everything comes together seamlessly. We stay involved throughout the process to ensure your project stays on track."
+    },
+    {
+      "title": "How much will an interior design project cost?",
+      "text": "Costs vary depending on the scope of the project. We offer transparent pricing, and after our initial consultation, we provide an estimate based on your specific needs. Whether you’re working on a small refresh or a full renovation, we can work within your budget while delivering high-quality results."
+    },
+    {
+      "title": "Do you work with a specific design style?",
+      "text": "We believe every client is unique, and our designs are personalized to suit your tastes and requirements. Whether you prefer modern, traditional, industrial, or eclectic styles, we bring your vision to life, blending your style preferences with functional solutions."
+    },
+    {
+      "title": "How long will my project take?",
+      "text": "Project timelines depend on the size and complexity of the work. A typical design project can take anywhere from a few weeks to several months. We’ll provide you with an estimated timeline after the consultation and keep you updated throughout the process to ensure everything stays on schedule."
+    },
+    {
+      "title": "Can you work with my existing furniture or artwork?",
+      "text": "Absolutely! We love working with items you already own. If you have a piece of furnitre or artwork that holds sentimental value or fits your space well, we’ll incorporate it into the new design, ensuring it enhances the overall aesthetic."
+    },
+    {
+      "title": "Can you help me with furniture selection and shopping?",
+      "text": "Yes! We can help you select and source furniture, lighting, accessories, and other decor items. We take into consideration the style, function, and scale of the space, ensuring everything complements the overall design. If needed, we can even manage the purchasing and delivery process to ensure everything arrives on time."
+    }
+  ]
+}

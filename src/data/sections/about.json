@@ -1,0 +1,17 @@
+{
+  "image": {
+    "url": "/img/photo/about.jpg",
+    "alt": "img"
+  },
+  "number": {
+    "value": "8",
+    "label": "<span class=\"mil-marker\">Years</span> of <br/>successful <br/>work"
+  },
+  "title": "Great experience",
+  "subtitle": "About Studio",
+  "description": "We are a multidisciplinary firm dedicated to supporting you throughout your renovation journey, from the initial design stage to the final completion. Our expert team is available to offer guidance on both residential and commercial projects, regardless of their size.",
+  "button": {
+    "link": "https://www.youtube.com/watch?v=HR4giV4oUjI",
+    "label": "Learn More"
+  }
+}
