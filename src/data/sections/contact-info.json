@@ -1,16 +1,16 @@
 {
     "button": {
-        "label": "Find a Space",
+        "label": "Book a Call",
         "link": "/contact"
     },
     "items": [
         {
             "label": "Email address",
-            "value": "projects@ruizarch.com"
+            "value": "info@thepeculiardesigner.co.uk"
         },
         {
             "label": "Free Consultation",
-            "value": "1 800 847 7978"
+            "value": "01484 361187"
         }
     ]
 }

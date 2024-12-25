@@ -1,7 +1,7 @@
 {
   "settings": {
-    "siteName": "Ruizarch",
-    "siteDescription": "Architecture React Next.JS Template",
+    "siteName": "THE PECULIAR DESIGNER",
+    "siteDescription": "Interior Design Experts",
     "formspreeURL": "https://formspree.io/f/your_api_key",
     "mailchimp": {
       "url": "",
@@ -51,7 +51,7 @@
       "image": "/img/logo/logo-light.png",
       "alt": "Logo"
     },
-    "copy": "© 2023 Ruizarch. All rights reserved.",
+    "copy": "© 2025 THE PECULIAR DESIGNER. All rights reserved.",
     "menu": [
       {
         "label": "About",

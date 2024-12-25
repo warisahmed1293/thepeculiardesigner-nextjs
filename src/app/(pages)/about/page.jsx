@@ -50,7 +50,7 @@ const About = () => {
       <PartnersSlider bgStyle={"soft"} />
       <AwardsSection />
       <TestimonialSlider showPartners={0} />
-      <CallToActionTwoSection />
+      {/* <CallToActionTwoSection /> */}
     </>
   );
 };
