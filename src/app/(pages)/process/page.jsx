@@ -24,10 +24,20 @@ const OurProcess = () => {
         breadTitle={"Our Process"}
         bgImage={"/img/covers/project5.jpg"}
       />
+      <div className='d-flex justify-content-center'>
+      <div className=''>
       <Stage1 />
       <Stage2 />
       <Stage3 />
       <Stage4/>
+      </div>
+      <div className='stage-numbers mt-5' >
+      <h2 style={{ fontFamily: "cursive", color: "#4d0606" }}>▸Stage_1</h2>
+      <h2 style={{ fontFamily: "cursive", color: "#4d0606" }}>▸Stage_2</h2>
+      <h2 style={{ fontFamily: "cursive", color: "#4d0606" }}>▸Stage_3</h2>
+      <h2 style={{ fontFamily: "cursive", color: "#4d0606" }}>▸Stage_4</h2>
+      </div>
+      </div>
     </>
   );
 };

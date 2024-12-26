@@ -425,6 +425,19 @@ suptitle
   display: flex;
   gap: 20px;
 }
+.stages{
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+  margin-left: 50px;
+
+}
+.stage-numbers{
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+  margin-right: 50px;
+}
 .stage4-image{
   width: 20%;
   height: 20%;
@@ -438,7 +451,7 @@ suptitle
   margin-left: 150px;
 }
 .stage2-image {
-  width: 50%;
+  width: 40%;
 }
 .stage2-3-image {
   width: 15%;

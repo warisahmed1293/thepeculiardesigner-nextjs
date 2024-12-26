@@ -26,7 +26,7 @@ async function ServiceDetail( { params } ) {
 
   return (
     <>
-      <PageBanner pageTitle={postData.title} breadTitle={postData.title} bgImage={"/img/photo/12.jpg"} />
+      <PageBanner pageTitle={postData.title} breadTitle={postData.title} bgImage={"/img/photo/hero1.jpg"} />
 
       {/* service */}
       <section>
@@ -123,7 +123,7 @@ async function ServiceDetail( { params } ) {
             <div className="mil-background-grid mil-softened" />
 
             <div className="row justify-content-between">
-                <div className="col-lg-7">
+                {/* <div className="col-lg-7">
 
                     {postData.description2 != undefined &&
                     <>
@@ -188,8 +188,8 @@ async function ServiceDetail( { params } ) {
                         <Link href={postData.faq.button.link} className="mil-button mil-up mil-mb-60">{postData.faq.button.label}</Link>
                     </>
                     }
-                </div>
-                <div className="col-lg-5">
+                </div> */}
+                {/* <div className="col-lg-5">
 
                     <div className="mil-sidebar-frame mil-mb-60">
 
@@ -233,13 +233,13 @@ async function ServiceDetail( { params } ) {
 
                     </div>
 
-                </div>
+                </div> */}
             </div>
         </div>
     </section>
     {/* service end */}
       
-    <ContactSection />
+    {/* <ContactSection /> */}
       
     </>
   );

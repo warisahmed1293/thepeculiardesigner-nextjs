@@ -1,8 +1,8 @@
 ---
 #preview details
 image: "/img/faces/1.jpg"
-name: "Charlie Williams"
-role: "Project Manager"
+name: "Abdullah Khan "
+role: "Founder"
 category_slug: "executive"
 
 #full details
@@ -29,5 +29,4 @@ social:
   - link: "https://youtube.com/"
     label: Youtube
 
-signature: "C.Williams"
 ---

@@ -1,8 +1,8 @@
 ---
 #preview details
 image: "/img/faces/4.jpg"
-name: "Tamzyn French"
-role: "Seo Specialist"
+name: "Amelia "
+role: "Junior Interior Designer "
 category_slug: "education"
 
 #full details
@@ -29,5 +29,4 @@ social:
   - link: "https://youtube.com/"
     label: Youtube
 
-signature: "T.French"
 ---

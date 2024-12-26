@@ -45,13 +45,13 @@ sidebar:
     - layout: values
       title: Benefits
       content:
-        - value: 10
+        - value: 346
           afterValue: +
-          label: Years <br>Experience
+          label: Completed Projects
         
-        - value: 99
-          afterValue: +
-          label: Billion <br>Invested
+        - value: 9
+          afterValue: k+
+          label: Working <br/>Hours
 
         - value: 10
           afterValue: +
@@ -69,13 +69,13 @@ sidebar:
         - (570) 253 - 2853
 
 gallery:
-  - image: /img/covers/1.jpg
+  - image: /img/covers/project3.jpg
     alt: image
 
-  - image: /img/covers/2.jpg
+  - image: /img/covers/project4.jpg
     alt: image
 
-  - image: /img/covers/4.jpg
+  - image: /img/covers/project5.jpg
     alt: image
 
 description2:

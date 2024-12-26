@@ -46,7 +46,6 @@ async function TeamDetail( { params } ) {
                         </ul>
                         <div className="mil-divider-lg mil-up mil-mb-30" />
                         <div className="mil-up mil-text mil-text-sm mil-mb-30" dangerouslySetInnerHTML={{__html: postData.description}} />
-                        <h2 className="mil-font-2 mil-thin mil-up">{postData.signature}</h2>
                     </div>
 
                 </div>

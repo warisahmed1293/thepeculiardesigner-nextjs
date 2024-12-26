@@ -27,9 +27,7 @@ const CompanySlider = () => {
                                 <h5 className="mil-upper mil-mb-10">{Data.signature.name}</h5>
                                 <p>{Data.signature.subname}</p>
                             </div>
-                            <div className="col-lg-6 mil-mb-30">
-                                <h2 className="mil-font-2 mil-thin">{Data.signature.text}</h2>
-                            </div>
+                           
                         </div>
                         }
                     </div>

@@ -49,15 +49,15 @@ const DefaultFooter = () => {
                     </nav>
                   </div>
                 </div>
+               
                 <div className="col-md-6 col-lg-6 col-xl-3">
                   <span className="mil-suptitle mil-light mil-upper mil-up mil-mb-30">
                     Huddersfield Office
                   </span>
                   <p className="mil-text-sm mil-up mil-light-soft mil-mb-30">
                     92 New N Rd, <br />
-                    Huddersfield HD1 5QP <br />
-                    info@thepeculiardesigner.co.uk <br />
-                    01484 361187
+                    Huddersfield  <br />
+                    HD1 5QP
                   </p>
                 </div>
               </div>

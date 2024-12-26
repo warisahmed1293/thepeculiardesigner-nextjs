@@ -5,14 +5,14 @@
         {
             "icon": "/img/icons/3.svg",
             "num": "01.",
-            "title": "2D Layouts",
+            "title": "Interior Design Services",
             "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod labore aliqua.",
             "link": "/services/service-1"
         },
         {
             "icon": "/img/icons/5.svg",
             "num": "02.",
-            "title": "Shopping Lists",
+            "title": "Construction Services",
             "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod labore aliqua.",
             "link": "/services/service-2"
         },

@@ -5,7 +5,7 @@ const Stage4 = () => {
     <>
       <div className="container mt-5">
         <div className="col-md-6 col-lg-6 col-xl-6">
-          <div className="mil-suptitle mil-upper mil-up mil-mb-30">Stage 1</div>
+          <div className="mil-suptitle mil-upper mil-up mil-mb-30">Stage 4</div>
           <h1 className="mil-upper mil-up">Design Development</h1>
           <br />
           <p className="mil-text-sm-stage mil-up mil-dark-soft mil-mb-30">

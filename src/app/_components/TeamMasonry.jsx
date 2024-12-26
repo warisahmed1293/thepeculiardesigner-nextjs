@@ -47,19 +47,19 @@ const TeamMasonry = ({ team, categories }) => {
     return (
       <>
         {/* filter */}
-        <div className="mil-filter mil-up mil-mb-90">
+        {/* <div className="mil-filter mil-up mil-mb-90">
             <div className="mil-filter-links">
                 <a href="#" data-filter="*" className="mil-current" onClick={ (e) => handleFilterKeyChange("*", e)}>All</a>
-                {categories.map((item, key) => (
+                {categories?.map((item, key) => (
                 <a href="#" data-filter={`${item.slug}`} key={`team-filter-item-${key}`} onClick={(e) => handleFilterKeyChange(item.slug, e)}>{item.name}</a>
                 ))}
             </div>
-        </div>
+        </div> */}
         {/* filter end */}
 
         {/* projects row */}
         <div className="row mil-team-grid">
-            {team.map((item, key) => (
+            {team?.map((item, key) => (
             <div className={`col-sm-6 col-lg-3 mil-grid-item mil-up ${item.category_slug}`} key={`team-item-${key}`}>
                 <Link href={`/team/${item.id}`} className="mil-team-member">
                     <div className="mil-avatar mil-mb-30">

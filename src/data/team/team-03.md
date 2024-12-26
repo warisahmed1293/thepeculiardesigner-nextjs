@@ -1,8 +1,8 @@
 ---
 #preview details
 image: "/img/faces/3.jpg"
-name: "Nguta Ithya"
-role: "President"
+name: "Harold Smith "
+role: "Building Manager "
 category_slug: "education"
 
 #full details
@@ -29,5 +29,4 @@ social:
   - link: "https://youtube.com/"
     label: Youtube
 
-signature: "N.Ithya"
 ---

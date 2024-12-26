@@ -1,8 +1,8 @@
 ---
 #preview details
 image: "/img/faces/2.jpg"
-name: "Peter Stanbridge"
-role: "Designer"
+name: "Jessica Herman "
+role: "Senior Interior Designer "
 category_slug: "data-centers"
 
 #full details
@@ -29,5 +29,4 @@ social:
   - link: "https://youtube.com/"
     label: Youtube
 
-signature: "P.Stanbridge"
 ---

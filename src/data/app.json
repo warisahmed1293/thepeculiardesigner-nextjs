@@ -19,30 +19,27 @@
         "label": "Home",
         "link": "/"
       },
+
       {
-        "label": "Services",
-        "link": "/services"
+        "label": "Our Process",
+        "link": "/process"
       },
       {
-        "label": "Projects",
-        "link": "/projects"
+        "label": "Our Story",
+        "link": "/story"
       },
-      {
-        "label": "Instagram Feed",
-        "link": "/blog"
-      },
-      {
-        "label": "Contact Us",
-        "link": "/contact",
-        "children": 0
-      },
+      
       {
         "label": "About",
         "link": "/about"
       },
       {
-        "label": "Our Process",
-        "link": "/process"
+        "label": "FAQ's",
+        "link": "/faqs"
+      },
+      {
+        "label": "Contact Us",
+        "link": "/contact"
       }
     ]
   },
@@ -74,12 +71,8 @@
         "link": "/contact"
       },
       {
-        "label": "Our Story",
-        "link": "/story"
-      },
-      {
-        "label": "FAQ's",
-        "link": "/faqs"
+        "label": "Our Team",
+        "link": "/team"
       }
     ]
   },

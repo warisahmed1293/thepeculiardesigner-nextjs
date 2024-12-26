@@ -40,7 +40,7 @@ async function Team() {
       </section>
       {/* team end */}
 
-      <RecruitSection />
+      {/* <RecruitSection /> */}
     </>
   );
 };
