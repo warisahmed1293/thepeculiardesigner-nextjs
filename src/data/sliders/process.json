@@ -4,44 +4,22 @@
     "slides": [
         [
             {
-                "title": "We Hear",
-                "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore aliqua."
+                "title": "Consultation",
+                "text": "After the initial enquiry for any new project, we will email a questionnaire so that we can obtain an understanding of the overall brief."
             },
             {
-                "title": "We Give Ideas",
-                "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore aliqua."
+                "title": "Design Development",
+                "text": "In the second stage you should expect to have one or two meetings with the designer.We will present the initial concept including floor plans and furniture layouts."
             },
             {
-                "title": "We Plan the Bases",
-                "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore aliqua."
+                "title": "Document Preparation",
+                "text": "Your quotation will be prepared and, at this stage, you may be introduced to our trades team as they carry out site surveys."
             }
         ],
         [
             {
-                "title": "We Hear",
-                "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore aliqua."
-            },
-            {
-                "title": "We Give Ideas",
-                "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore aliqua."
-            },
-            {
-                "title": "We Plan the Bases",
-                "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore aliqua."
-            }
-        ],
-        [
-            {
-                "title": "We Hear",
-                "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore aliqua."
-            },
-            {
-                "title": "We Give Ideas",
-                "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore aliqua."
-            },
-            {
-                "title": "We Plan the Bases",
-                "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore aliqua."
+                "title": "Design Development",
+                "text": "At this next stage, we will introduce you to our Project Co-ordinator and Project Manager who will ensure your project is delivered according to plan."
             }
         ]
     ]

@@ -42,12 +42,12 @@ const About = () => {
         breadTitle={"About"}
         bgImage={"/img/photo/aboutBaner.png"}
       />
-      <ServicesTwoSection />
-      <ContactInfoSection />
+      {/* <ServicesTwoSection />
+      <ContactInfoSection /> */}
       <CompanyTwoSlider />
       <ProcessSlider paddingTop={"0"} />
       <CompanySlider />
-      <PartnersSlider bgStyle={"soft"} />
+      {/* <PartnersSlider bgStyle={"soft"} /> */}
       <AwardsSection />
       <TestimonialSlider showPartners={0} />
       {/* <CallToActionTwoSection /> */}

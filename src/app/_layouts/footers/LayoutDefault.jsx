@@ -55,9 +55,9 @@ const DefaultFooter = () => {
                     Huddersfield Office
                   </span>
                   <p className="mil-text-sm mil-up mil-light-soft mil-mb-30">
-                    92 New N Rd, <br />
-                    Huddersfield  <br />
-                    HD1 5QP
+                  Call: 01484 361187, <br />
+                  Email: info@thepeculiardesigner.co.uk  <br />
+                  Address: 92 New N Rd, Huddersfield HD1 5QP
                   </p>
                 </div>
               </div>

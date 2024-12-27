@@ -73,6 +73,10 @@
       {
         "label": "Our Team",
         "link": "/team"
+      },
+      {
+        "label": "Careers",
+        "link": "/careers"
       }
     ]
   },

@@ -24,7 +24,7 @@ const Contact = () => {
       />
 
       {/* about */}
-      <section>
+      {/* <section>
         <div className="container mil-p-120-60">
           <div className="mil-background-grid mil-softened" />
 
@@ -88,7 +88,7 @@ const Contact = () => {
             </div>
           </div>
         </div>
-      </section>
+      </section> */}
       {/* about end */}
 
       {/* map */}

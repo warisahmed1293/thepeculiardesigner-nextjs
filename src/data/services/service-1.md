@@ -8,17 +8,19 @@ short: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod 
 
 description:
   - layout: 1
-    title: Description
+    title: Interior Design Services
     content:
-      <p>Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden - Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source. Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of "de Finibus Bonorum et Malorum" (The Extremes of Good and Evil) by Cicero, written in 45 BC. This book is a treatise on the theory of ethics, very popular during the Renaissance. The first line of Lorem Ipsum, "Lorem ipsum dolor sit amet..", comes from a line in section 1.10.32.</p>
-      <p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like).</p>
+      <p>The initial stage of a project involves optimizing the layout for enhanced functionality and seamless flow. We collaborate with you to fully grasp your requirements and aim to offer innovative solutions to your design challenges.</p>
+      <p>You can easily share our interactive shopping lists, making it super simple to give feedback on furniture items and designs. Plus, it helps you keep an eye on your budget and timelines.</p>
+      <p>With our advanced software, we are able to provide you with a lifelike visualisation of your space, allowing you to explore a range of design options, materials, and colour schemes in a hyper realistic visual.</p>
     divider: true
 
   - layout: 2
-    title: Benefits
+    title: Construction Services
     content:
-      <p>Our architectural work improves people's lives. We work closely with clients to create functional solutions that creatively respond to the needs of individuals and organizations. From corporate facility innovation to commercial developments, we create beautiful, balanced designs fueled by big ideas.</p>
-      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+     <p>If you're considering expanding your home, our team of experts are on hand to assist you with everything from architectural designs and planning to the construction phase.</p>
+      <p>We create custom joinery that perfectly fits your space. From stunning media units to luxurious walk-in wardrobes and fully bespoke kitchens, we've got you covered!</p>
+      <p>Many people tend to overlook this part of their home, but we believe that both the interior and exterior should have a cohesive flow. We'll help you create an outdoor space that not only looks fantastic but also functions beautifully for you and your family.</p>
     list:
       - 3D Modeling
       - Programs to Map Territory
@@ -30,18 +32,18 @@ sidebar:
   title: Info Areas
   items:
     - layout: list
-      title: Master Planning
+      title: Interior Design Services
       content:
-        - Workplace Consulting
-        - 3D Modeling Planning
-        - Architecture
+        - Planning 2D Layouts
+        - Shopping Lists
+        - 3D designs
 
     - layout: list
-      title: Sustainability & Wellness
+      title: Construction Services
       content:
-        - Recreational Parks
-        - Park and Public Squares
-        - Parkland
+        - Extensions 
+        - Bespoke Joinery
+        - Landscaping
 
     - layout: values
       title: Benefits
@@ -52,7 +54,7 @@ sidebar:
         
         - value: 9
           afterValue: k+
-          label: Working Hours
+          label: Working Hour's
 
         - value: 10
           afterValue: +

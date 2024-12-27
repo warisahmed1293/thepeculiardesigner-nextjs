@@ -22,7 +22,7 @@ async function Team() {
   
   return (
     <>
-      <PageBanner pageTitle={"Leadership"} breadTitle={"Team"} bgImage={"/img/photo/12.jpg"} />
+      <PageBanner pageTitle={"Leadership"} breadTitle={"Team"} bgImage={"https://img.freepik.com/free-photo/cooperation-team-concept_1194-616991.jpg?t=st=1735300029~exp=1735303629~hmac=24d5ee9d7f7ec73db1196767ee89f2b86024b7a11abcfdb96a965822190d60a0&w=1380"} />
          
       {/* team */}
       <section>
