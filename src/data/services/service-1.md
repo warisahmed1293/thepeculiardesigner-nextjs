@@ -1,6 +1,6 @@
 ---
 #preview details
-title: "Interior Decor"
+title: "Interior Design"
 icon: "/img/icons/3.svg"
 short: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod labore aliqua."
 
@@ -15,19 +15,6 @@ description:
       <p>With our advanced software, we are able to provide you with a lifelike visualisation of your space, allowing you to explore a range of design options, materials, and colour schemes in a hyper realistic visual.</p>
     divider: true
 
-  - layout: 2
-    title: Construction Services
-    content:
-     <p>If you're considering expanding your home, our team of experts are on hand to assist you with everything from architectural designs and planning to the construction phase.</p>
-      <p>We create custom joinery that perfectly fits your space. From stunning media units to luxurious walk-in wardrobes and fully bespoke kitchens, we've got you covered!</p>
-      <p>Many people tend to overlook this part of their home, but we believe that both the interior and exterior should have a cohesive flow. We'll help you create an outdoor space that not only looks fantastic but also functions beautifully for you and your family.</p>
-    list:
-      - 3D Modeling
-      - Programs to Map Territory
-      - Robotics and AI Technology
-      - Material Simulation
-    divider: false
-
 sidebar:
   title: Info Areas
   items:
@@ -37,13 +24,6 @@ sidebar:
         - Planning 2D Layouts
         - Shopping Lists
         - 3D designs
-
-    - layout: list
-      title: Construction Services
-      content:
-        - Extensions 
-        - Bespoke Joinery
-        - Landscaping
 
     - layout: values
       title: Benefits

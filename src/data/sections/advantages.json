@@ -1,23 +1,23 @@
 {
   "title": "We Take Care of Everything <br>for You!",
   "subtitle": "Our Process",
-  "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do <br> eiusmod tempor incididunt ut labore aliqua.",
+  "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do <br> eiusmod tempor incididunt ut labore aliqua .",
   "items": [
     {
-      "title": "Listen",
-      "text": "Lorem ipsum dolor sit amet consectetur adipiscing elit, sed do eiusmod tempor incididunt."
+      "title": "Consultation",
+      "text": "Stage-1"
     },
     {
-      "title": "Strategies",
-      "text": "Lorem ipsum dolor sit amet consectetur adipiscing elit, sed do eiusmod tempor incididunt."
+      "title": "Design Development",
+      "text": "Stage-2"
     },
     {
-      "title": "Project Work",
-      "text": "Lorem ipsum dolor sit amet consectetur adipiscing elit, sed do eiusmod tempor incididunt."
+      "title": "Document Preparation",
+      "text": "Stage-3"
     },
     {
-      "title": "Launch",
-      "text": "Lorem ipsum dolor sit amet consectetur adipiscing elit, sed do eiusmod tempor incididunt."
+      "title": "Design Development",
+      "text": "Stage-4"
     }
   ]
 }

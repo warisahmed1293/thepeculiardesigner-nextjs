@@ -5,23 +5,16 @@
         {
             "icon": "/img/icons/3.svg",
             "num": "01.",
-            "title": "Planning 2D Layouts",
+            "title": "Interior Design Services",
             "text": "We collaborate with you to fully grasp your requirements and aim to offer innovative solutions to your design challenges.",
             "link": "/services/service-1"
         },
         {
             "icon": "/img/icons/5.svg",
             "num": "02.",
-            "title": "Shopping Lists",
-            "text": "You can easily share our interactive shopping lists, making it super simple to give feedback on furniture items and designs. Plus, it helps you keep an eye on your budget and timelines.",
-            "link": "/services/service-1"
-        },
-        {
-            "icon": "/img/icons/4.svg",
-            "num": "03.",
-            "title": "3D designs",
-            "text": "With our advanced software, we are able to provide you with a lifelike visualisation of your space, allowing you to explore a range of design options, materials, and colour schemes in a hyper realistic visual.",
-            "link": "/services/service-1"
+            "title": "Construction Services",
+            "text": "You can easily share our interactive shopping lists, making it super simple to give feedback on furniture items and designs.",
+            "link": "/services/service-2"
         }
     ]
 }

@@ -19,14 +19,10 @@ const AdvantagesSection = () => {
                   className="mil-upper mil-up mil-mb-30"
                   dangerouslySetInnerHTML={{ __html: Data.title }}
                 />
-                <p
-                  className="mil-up"
-                  dangerouslySetInnerHTML={{ __html: Data.description }}
-                />
               </div>
             </div>
             {Data.items.map((item, key) => (
-              <div key={`advantages-item-${key}`} className="col-md-6 col-lg-3">
+              <div key={`advantages-item-${key}`} className="col-md-6 col-lg-6">
                 <div className="mil-advantage mil-icon-box mil-center mil-up mil-mb-60">
                   <h4 className="mil-upper mil-mb-30">{item.title}</h4>
                   <div className="mil-icon mil-icon-border mil-mb-30">
