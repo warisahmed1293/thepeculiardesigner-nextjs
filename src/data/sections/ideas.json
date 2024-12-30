@@ -21,6 +21,11 @@
       "icon": "/img/icons/5.svg",
       "link": "/services/service-1",
       "label": "Planning"
+    },
+    {
+      "icon": "/img/icons/14.svg",
+      "link": "/services/service-1",
+      "label": "Construction"
     }
   ]
 }

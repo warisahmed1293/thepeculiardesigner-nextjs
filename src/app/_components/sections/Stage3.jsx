@@ -1,35 +1,68 @@
+"use client";
 import React from "react";
+
+import { SliderProps } from "@common/sliderProps";
+import { Swiper, SwiperSlide } from "swiper/react";
+
+import Data from '@data/sliders/company-2';
+
+import Link from "next/link";
 
 const Stage3 = () => {
   return (
     <>
-      <div className="container mt-5">
-        <div className="col-md-6 col-lg-6 col-xl-6">
-          <div className="mil-suptitle mil-upper mil-up mil-mb-30">Stage 3</div>
-          <h1 className="mil-upper mil-up">Document Preparation</h1>
+    {/* company two slider */}
+    <section>
+        <div className="container mil-p-0-30">
+            <div className="mil-background-grid mil-softened" />
+
+            <div className="row justify-content-between align-items-center flex-sm-row-reverse">
+                <div className="col-lg-5">
+
+                    <div className="mil-mb-90">
+                        <span className="mil-suptitle mil-upper mil-up mil-mb-30">Stage 3</span>
+                        <h2 className="mil-upper mil-up mil-mb-30">Document Preparation</h2>
+                        <p className="mil-up mil-mb-40">Comprehensive document preparation services tailored to meet your project needs. From technical documentation and proposals to reports and presentations, we ensure clarity, precision, and professionalism. Our expertise helps you create impactful, well-structured documents that effectively communicate your goals and ideas, setting the foundation for successful outcomes.</p>
+                        <div className="mil-up">
+                            {/* <Link href={Data.button.link} className="mil-link mil-upper">
+                                {Data.button.label}
+                                <span className="mil-arrow"><img src="/img/icons/1.svg" alt="arrow" /></span>
+                            </Link> */}
+                        </div>
+                    </div>
+
+                </div>
+                <div className="col-lg-6">
+
+                    <div className="mil-illustration-slider-frame mil-up mil-mb-90">
+                        <Swiper
+                            {...SliderProps.milIllustrationSlider}
+                            className="swiper-container mil-illustration-slider"
+                        >
+                                {Data.items.map((item, key) => (
+                                <SwiperSlide className="swiper-slide" key={`illustration-slider-item-${key}`}>
+                                    <div className="mil-illustration" data-swiper-parallax-x="50" data-swiper-parallax-scale="1.3">
+                                        <div className="mil-image-frame">
+                                            <img src={item.image} alt={item.alt} />
+                                        </div>
+                                    </div>
+                                </SwiperSlide>
+                                ))}
+                        </Swiper>
+                        {/* <div className="mil-illustration-slider-nav mil-up">
+                            <div className="mil-nav-buttons">
+                                <div className="mil-slider-button mil-illustration-prev">Prev</div>
+                                <div className="mil-slider-button mil-illustration-next">Next</div>
+                            </div>
+                        </div> */}
+                    </div>
+
+                </div>
+            </div>
         </div>
-      </div>
-      <div className="container stage3-flex">
-        <div className="col-md-6 col-lg-6 col-xl-6">
-          <p className="mil-text-sm-stage mil-up mil-dark-soft mil-mb-30">
-            Your quotation will be prepared and, at this stage, you may be
-            introduced to our trades team as they carry out site surveys. We
-            will have already briefed them on your project requirements. Your
-            plans and drawings will have also been shared to communicate our
-            vision. <br />
-            <br />
-            Once all the estimates are in, you will receive a document pack that
-            will include contract papers, our T & Cs, a fully itemised quotation
-            along with our Project Management fees. If you selected to receive
-            photorealistic CGIs, your designer will be delighted to share these
-            with you at this stage.
-          </p>
-        </div>
-        <img className="stage3-image" src="/img/photo/stage3.webp" />
-      </div>
-      <img className="stage3-2-image" src="/img/photo/stage3-2.webp" />
+    </section>
+    {/* company two slider end */}
     </>
   );
 };
-
 export default Stage3;

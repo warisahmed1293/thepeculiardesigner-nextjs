@@ -1,62 +1,72 @@
-import React from "react";
+"use client";
+
+import { SliderProps } from "@common/sliderProps";
+import { Swiper, SwiperSlide } from "swiper/react";
+
+import Data from '@data/sliders/company';
 
 const Stage2 = () => {
   return (
     <>
-      <div className="container mt-5">
-        <div className="col-md-6 col-lg-6 col-xl-8">
-          <div className="mil-suptitle mil-upper mil-up mil-mb-30">Stage 2</div>
-          <h1 className="mil-upper mil-up">Design Development</h1>
-          <h1
-            style={{ fontFamily: "cursive", color: "#4d0606" }}
-            className="mil-upper mil-up mt-5 mb-5"
-          >
-            Concept
-          </h1>
+    {/* company slider */}
+    <section>
+        <div className="container mil-p-0-30">
+            <div className="mil-background-grid mil-softened" />
 
-          <br />
-          <p className="mil-text-sm-stage mil-up mil-dark-soft mil-mb-30">
-            In the second stage you should expect to have one or two meetings
-            with the designer.
-            <br /> We will present the initial concept including floor plans and
-            furniture layouts. If we are proposing any structural changes we
-            will discuss this in the first meeting. You will be shown flooring
-            and wall finishes along with samples and visual references of
-            furniture, lighting and soft furnishings. <br />
-            <br />
-            This is a collaborative and hands on experience. We encourage you to
-            handle the samples and finishes as we explain how they work
-            together. We invite questions and feedback so we can tailor your
-            unique design to meet your exacting requirements.
-            <br />
-            <br />
-          </p>
+            <div className="row justify-content-between align-items-center">
+                <div className="col-lg-5">
+
+                    <div className="mil-mb-60">
+                    <span className="mil-suptitle mil-upper mil-up mil-mb-30">Stage 2</span>
+
+                        <h2 className="mil-upper mil-up mil-mb-30">Design Development</h2>
+                        <h4 className="mil-upper mil-up mil-mb-10">- Concept</h4>
+                        <p className="mil-up mil-mb-30">Our vision is to design interiors that are not only visually stunning, but also enhance the lives of those who use them. The Peculiar Designer is committed to creating spaces that are as unique as our clients.</p>
+                        <h4 className="mil-upper mil-up mil-mb-10">- Detail</h4>
+                        <p className="mil-up mil-mb-40">Expert consultation services in web development, mobile apps, CMS customization, and Shopify solutions. We provide tailored strategies, actionable insights, and personalized guidance to launch, optimize, or scale your projects, ensuring seamless execution and transforming your vision into reality.</p>
+                        {/* {Data.signature != undefined &&
+                        <div className="row align-items-center mil-up">
+                            <div className="col-lg-5 mil-mb-30">
+                                <h5 className="mil-upper mil-mb-10">{Data.signature.name}</h5>
+                                <p>{Data.signature.subname}</p>
+                            </div>
+                           
+                        </div>
+                        } */}
+                    </div>
+
+                </div>
+                <div className="col-lg-6">
+
+                    <div className="mil-illustration-slider-frame mil-up mil-mb-90">
+                        <Swiper
+                            {...SliderProps.milIllustrationSlider}
+                            className="swiper-container mil-illustration-slider"
+                        >
+                                {Data.items.map((item, key) => (
+                                <SwiperSlide className="swiper-slide" key={`illustration-slider-item-${key}`}>
+                                    <div className="mil-illustration" data-swiper-parallax-x="50" data-swiper-parallax-scale="1.3">
+                                        <div className="mil-image-frame">
+                                            <img src={item.image} alt={item.alt} />
+                                        </div>
+                                    </div>
+                                </SwiperSlide>
+                                ))}
+                        </Swiper>
+                        {/* <div className="mil-illustration-slider-nav mil-up">
+                            <div className="mil-nav-buttons">
+                                <div className="mil-slider-button mil-illustration-prev">Prev</div>
+                                <div className="mil-slider-button mil-illustration-next">Next</div>
+                            </div>
+                        </div> */}
+                    </div>
+                </div>
+
+            </div>
         </div>
-      </div>
-      <div className="container">
-        <div className="stage2-flex">
-          <img className="stage2-image" src="/img/photo/stage2-1.webp" />
-          <img className="stage2-image" src="/img/photo/stage2-2.webp" />
-        </div>
-      </div>
-      <div className="detail-flex">
-        <img className="stage2-3-image" src="/img/photo/stage2-3.webp" />
-        <div>
-          <h1 style={{ fontFamily: "cursive", color: "#4d0606" }}>Detail</h1>
-          <p className="col-md-6 col-lg-6 col-xl-5">
-            Following the concept presentation we focus on the detail, paying
-            attention to each individual element so our team can seamlessly
-            deliver your exquisite design. Bespoke cabinetry drawings, joinery
-            and hardware details, plumbing specification, lighting design and
-            electrical plans are presented to complete your proposal.
-          </p>
-        </div>
-      </div>
-      <div className="container">
-        <img className="stage2-4-image" src="/img/photo/stage2-4.webp" />
-      </div>
+    </section>
+    {/* company slider end */}
     </>
   );
 };
-
 export default Stage2;

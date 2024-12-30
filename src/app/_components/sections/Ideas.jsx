@@ -22,13 +22,13 @@ const IdeasSection = () => {
                             </div>
 
                         </div>
-                        <div className="col-lg-5 mil-mt-suptitle-offset">
+                        <div className="col-lg-6 mil-mt-suptitle-offset">
 
                             <p className="mil-up mil-mb-60" dangerouslySetInnerHTML={{__html : Data.description}} />
 
                             <div className="row">
                                 {Data.items.map((item, key) => (
-                                <div className="col-sm-4" key={`ideas-item-${key}`}>
+                                <div className="col-sm-5" key={`ideas-item-${key}`}>
 
                                     <Link href={item.link} className="mil-icon-box mil-sm-center mil-mb-30">
                                         <div className="mil-icon mil-icon-accent-bg mil-up mil-mb-30">

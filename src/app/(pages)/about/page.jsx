@@ -48,8 +48,8 @@ const About = () => {
       <ProcessSlider paddingTop={"0"} />
       <CompanySlider />
       {/* <PartnersSlider bgStyle={"soft"} /> */}
-      <AwardsSection />
-      <TestimonialSlider showPartners={0} />
+      {/* <AwardsSection /> */}
+      {/* <TestimonialSlider showPartners={0} /> */}
       {/* <CallToActionTwoSection /> */}
     </>
   );

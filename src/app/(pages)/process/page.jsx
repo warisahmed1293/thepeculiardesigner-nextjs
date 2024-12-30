@@ -8,6 +8,8 @@ import Stage1 from "../../_components/sections/Stage1";
 import Stage2 from "../../_components/sections/Stage2";
 import Stage3 from "../../_components/sections/Stage3";
 import Stage4 from "../../_components/sections/Stage4";
+import AdvantagesSection from '../../_components/sections/Advantages';
+import AdvantagesProcess from '../../_components/sections/AdvantagesProcess';
 
 export const metadata = {
   title: {
@@ -24,20 +26,12 @@ const OurProcess = () => {
         breadTitle={"Our Process"}
         bgImage={"/img/covers/project5.jpg"}
       />
-      <div className='d-flex justify-content-center'>
-      <div className=''>
+      <AdvantagesProcess/>
       <Stage1 />
       <Stage2 />
       <Stage3 />
       <Stage4/>
-      </div>
-      <div className='stage-numbers mt-5' >
-      <h2 style={{ fontFamily: "cursive", color: "#4d0606" }}>▸Stage_1</h2>
-      <h2 style={{ fontFamily: "cursive", color: "#4d0606" }}>▸Stage_2</h2>
-      <h2 style={{ fontFamily: "cursive", color: "#4d0606" }}>▸Stage_3</h2>
-      <h2 style={{ fontFamily: "cursive", color: "#4d0606" }}>▸Stage_4</h2>
-      </div>
-      </div>
+    
     </>
   );
 };

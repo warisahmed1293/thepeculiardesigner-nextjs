@@ -1,47 +1,68 @@
+"use client";
 import React from "react";
+
+import { SliderProps } from "@common/sliderProps";
+import { Swiper, SwiperSlide } from "swiper/react";
+
+import Data from '@data/sliders/company-2';
+
+import Link from "next/link";
 
 const Stage1 = () => {
   return (
     <>
-      <div className="container mt-5">
-        <div className="col-md-6 col-lg-6 col-xl-6">
-          <div className="mil-suptitle mil-upper mil-up mil-mb-30">Stage 1</div>
-          <h1 className="mil-upper mil-up">Consultation</h1>
-          <br />
-          <p className="mil-text-sm-stage mil-up mil-dark-soft mil-mb-30">
-            After the initial enquiry for any new project, we will email a
-            questionnaire so that we can obtain an understanding of the overall
-            brief. <br />
-            <br />
-            The next step is a home consultation which takes place at your
-            property and there is a cost associated with this initial visit.
-            This usually takes 90 to 120 minutes and is a great opportunity for
-            us to really get to know you, how you live, what inspires you. We
-            want to explore your hopes and aspirations for the space we are
-            working with.
-            <br />
-            <br />
-            Listening and understanding is key to achieving a successful outcome
-            for any interior design project. <br />
-            <br />
-            We want you to get to know us too. This could be the beginning of a
-            close working relationship, it is vital you feel comfortable with
-            your choice of interior design company. <br />
-            <br />
-            Depending on the size of the project we will also take measurements,
-            discuss budgets and preferred start date on this visit.
-            <br />
-            <br />
-            Following this consultation you can expect to receive a proposal
-            detailing an overview of your project, scope of work, timeline,
-            approximate budget along with any relevant design and project
-            management fees.
-          </p>
+    {/* company two slider */}
+    <section>
+        <div className="container mil-p-0-30">
+            <div className="mil-background-grid mil-softened" />
+
+            <div className="row justify-content-between align-items-center flex-sm-row-reverse">
+                <div className="col-lg-5">
+
+                    <div className="mil-mb-90">
+                        <span className="mil-suptitle mil-upper mil-up mil-mb-30">Stage 1</span>
+                        <h2 className="mil-upper mil-up mil-mb-30">Consultation</h2>
+                        <p className="mil-up mil-mb-40">Professional consultation services tailored to your needs. Offering expert advice and solutions in web development, mobile app design, CMS customization, and Shopify development. Whether you're starting a project or optimizing an existing one, our personalized approach ensures success. Let's turn your ideas into reality with strategic guidance and technical expertise.</p>
+                        <div className="mil-up">
+                            {/* <Link href={Data.button.link} className="mil-link mil-upper">
+                                {Data.button.label}
+                                <span className="mil-arrow"><img src="/img/icons/1.svg" alt="arrow" /></span>
+                            </Link> */}
+                        </div>
+                    </div>
+
+                </div>
+                <div className="col-lg-6">
+
+                    <div className="mil-illustration-slider-frame mil-up mil-mb-90">
+                        <Swiper
+                            {...SliderProps.milIllustrationSlider}
+                            className="swiper-container mil-illustration-slider"
+                        >
+                                {Data.items.map((item, key) => (
+                                <SwiperSlide className="swiper-slide" key={`illustration-slider-item-${key}`}>
+                                    <div className="mil-illustration" data-swiper-parallax-x="50" data-swiper-parallax-scale="1.3">
+                                        <div className="mil-image-frame">
+                                            <img src={item.image} alt={item.alt} />
+                                        </div>
+                                    </div>
+                                </SwiperSlide>
+                                ))}
+                        </Swiper>
+                        {/* <div className="mil-illustration-slider-nav mil-up">
+                            <div className="mil-nav-buttons">
+                                <div className="mil-slider-button mil-illustration-prev">Prev</div>
+                                <div className="mil-slider-button mil-illustration-next">Next</div>
+                            </div>
+                        </div> */}
+                    </div>
+
+                </div>
+            </div>
         </div>
-      </div>
-      <img className="stge1-image mt-5" src="/img/photo/stage1.webp" />
+    </section>
+    {/* company two slider end */}
     </>
   );
 };
-
 export default Stage1;

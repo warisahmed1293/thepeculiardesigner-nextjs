@@ -1,0 +1,23 @@
+{
+  "title": "We Take Care of Everything <br>for You!",
+  "subtitle": "Our Process",
+  "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do <br> eiusmod tempor incididunt ut labore aliqua.",
+  "items": [
+    {
+      "title": "Stage 1",
+      "text": "Consultation"
+    },
+    {
+      "title": "Stage 2",
+      "text": "Design Development"
+    },
+    {
+      "title": "Stage 3",
+      "text": "Document Preparation"
+    },
+    {
+      "title": "Stage 4",
+      "text": "Design Development"
+    }
+  ]
+}
