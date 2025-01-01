@@ -1,5 +1,5 @@
 {
-  "bg_image": "/img/covers/project3.jpg",
+  "bg_image": "/img//project/30.JPG",
   "title": "Whole difference",
   "subtitle": "FAQ's",
   "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua quis ipsum suspendisse ultrices gravida.",
@@ -9,11 +9,11 @@
   },
   "items": [
     {
-      "title": "What services do you offer as an interior designer?",
-      "text": "We provide a wide range of design services, including space planning, interior design concept creation, furniture selection, lighting design, color consultation, and project management. Whether it's a full renovation, a simple room makeover, or styling for an event, we tailor our services to meet your specific needs."
+      "title": "What does an interior designer do?",
+      "text": "An interior designer enhances the functionality, aesthetics, and overall atmosphere of a space. We help create interiors that reflect your style and meet your needs, whether through design consultations, space planning, furniture selection, color schemes, lighting design, or project management. We also consider factors like layout, flow, and the long-term durability of materials."
     },
     {
-      "title": "What is your design process?",
+      "title": "What services do you offer as an interior designer?",
       "text": "We provide a wide range of design services, including space planning, interior design concept creation, furniture selection, lighting design, color consultation, and project management. Whether it's a full renovation, a simple room makeover, or styling for an event, we tailor our services to meet your specific needs."
     },
     {

@@ -18,7 +18,7 @@ const AboutSection = () => {
                     <div className="mil-background-grid mil-softened" />
 
                     <div className="row justify-content-between align-items-center flex-sm-row-reverse">
-                        <div className="col-lg-5">
+                        <div className="col-lg-6">
 
                             <div className="mil-mb-90">
                                 <span className="mil-suptitle mil-upper mil-up mil-mb-30" dangerouslySetInnerHTML={{__html : Data.subtitle}} />
@@ -31,7 +31,7 @@ const AboutSection = () => {
                             </div>
 
                         </div>
-                        <div className="col-lg-6">
+                        <div className="col-lg-5">
 
                             <div className="mil-illustration mil-up mil-mb-90">
                                 <div className="mil-image-frame">

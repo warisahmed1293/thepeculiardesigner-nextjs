@@ -20,7 +20,7 @@ const Contact = () => {
       <PageBanner
         pageTitle={"We’d love to talk"}
         breadTitle={"Contact"}
-        bgImage={"/img/covers/project5.jpg"}
+        bgImage={"/img//project/31.jpg"}
       />
 
       {/* about */}

@@ -23,7 +23,7 @@ const CompanySlider = () => {
                         
                         {Data.signature != undefined &&
                         <div className="row align-items-center mil-up">
-                            <div className="col-lg-5 mil-mb-30">
+                            <div className="col-lg-7 mil-mb-30">
                                 <h5 className="mil-upper mil-mb-10">{Data.signature.name}</h5>
                                 <p>{Data.signature.subname}</p>
                             </div>

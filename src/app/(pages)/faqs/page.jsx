@@ -18,7 +18,7 @@ const FAQS = () => {
       <PageBanner
         pageTitle={"FAQ's"}
         breadTitle={"FAQ's"}
-        bgImage={"/img/covers/project2.png"}
+        bgImage={"/img//project/29.jpg"}
       />
       <CoresSection />
     </>

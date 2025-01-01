@@ -1,7 +1,7 @@
 ---
 #preview
 title: City House
-image: /img/covers/project2.png
+image: /img/project/2.JPG
 category: Architecture
 category_slug: architecture
 date: may 24 2023

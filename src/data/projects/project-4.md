@@ -1,7 +1,7 @@
 ---
 #preview
 title: Cascade of Lava
-image: /img/covers/project4.jpg
+image: /img/project/4.JPG
 category: Decor
 category_slug: decor
 date: may 24 2023

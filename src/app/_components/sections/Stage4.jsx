@@ -18,8 +18,8 @@ const Stage4 = () => {
 
                     <div className="mil-mb-60">
                     <span className="mil-suptitle mil-upper mil-up mil-mb-30">Stage 4</span>
-
                         <h2 className="mil-upper mil-up mil-mb-30">Design Development</h2>
+                    <p className="mil-up mil-mb-30">Our in-house construction team will start and the magic will commence. Soon after, the nitty gritty part is over, installation of joinery and furniture will start. </p>
                         <h4 className="mil-upper mil-up mil-mb-10">- Construction</h4>
                         <p className="mil-up mil-mb-30">Your designer and Project Manager will ensure that this stage runs smoothly and resolve any issues that arise.</p>
                         <h4 className="mil-upper mil-up mil-mb-10">- Installation</h4>

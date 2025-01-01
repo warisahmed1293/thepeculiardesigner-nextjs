@@ -19,11 +19,12 @@ const Stage2 = () => {
                     <div className="mil-mb-60">
                     <span className="mil-suptitle mil-upper mil-up mil-mb-30">Stage 2</span>
 
-                        <h2 className="mil-upper mil-up mil-mb-30">Design Development</h2>
+                        <h2 className="mil-upper mil-up mil-mb-30">DESIGNING & CONCEPTUALISE</h2>
                         <h4 className="mil-upper mil-up mil-mb-10">- Concept</h4>
-                        <p className="mil-up mil-mb-30">Our vision is to design interiors that are not only visually stunning, but also enhance the lives of those who use them. The Peculiar Designer is committed to creating spaces that are as unique as our clients.</p>
+                        <p className="mil-up mil-mb-30">Our vision is to design interiors that are not only visually stunning, but also enhance the lives of those who use them. The Peculiar Designer is committed to creating spaces that are as unique as our cliets.</p>
                         <h4 className="mil-upper mil-up mil-mb-10">- Detail</h4>
-                        <p className="mil-up mil-mb-40">Expert consultation services in web development, mobile apps, CMS customization, and Shopify solutions. We provide tailored strategies, actionable insights, and personalized guidance to launch, optimize, or scale your projects, ensuring seamless execution and transforming your vision into reality.</p>
+                        <p className="mil-up mil-mb-40">After presenting the concept, we dive into the details, ensuring every element is thoughtfully considered. Our team then prepares bespoke cabinetry drawings, joinery and hardware specifications, plumbing plans, lighting design, and electrical layouts to finalise your proposal.
+                        </p>
                         {/* {Data.signature != undefined &&
                         <div className="row align-items-center mil-up">
                             <div className="col-lg-5 mil-mb-30">

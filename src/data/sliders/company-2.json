@@ -1,22 +1,22 @@
 {
-  "title": "Mission",
+  "title": "Mission Statement",
   "subtitle": "Work",
-  "description": "We are dedicated to creating beautiful and functional spaces that reflect our clients unique personalities and lifestyles. Our mission is to provide exceptional design services that exceed expectations and transform ordinary spaces into extraordinary ones. With a focus on quality, creativity, and attention to detail, we strive to deliver exceptional results that enhance the way our clients live, work, and play.",
+  "description": "Our mission is to design beautiful, functional spaces that truly reflect the unique personalities and lifestyles of our clients. We aim to exceed expectations by transforming everyday spaces into something extraordinary. With a focus on quality, creativity, and meticulous attention to detail, we deliver results that elevate how our clients live, work, and enjoy their surroundings.",
   "button": {
     "label": "See Projects",
     "link": "/portfolio"
   },
   "items": [
     {
-      "image": "/img/covers/project1.jpg",
+      "image": "/img/project/25.jpg",
       "alt": "image"
     },
     {
-      "image": "/img/covers/project2.png",
+      "image": "/img/project/27.jpg",
       "alt": "image"
     },
     {
-      "image": "/img/covers/project3.jpg",
+      "image": "/img/project/28.jpg",
       "alt": "image"
     }
   ]

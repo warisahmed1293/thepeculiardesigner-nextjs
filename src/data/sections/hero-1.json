@@ -1,6 +1,6 @@
 {
-  "bg_image": "/img/photo/hero1.jpg",
-  "title": "INTERIOR<br/>Design<br/>EXPERTS",
+  "bg_image": "/img/project/12.PNG",
+  "title": "INTERIOR Design<br/> Construction<br/>EXPERTS",
   "subtitle": "THE PECULIAR DESIGNER",
   "button": {
     "link": "/projects",
@@ -8,24 +8,14 @@
   },
   "numbers": [
     {
-      "value": "346",
+      "value": "60",
       "afterValue": "+",
       "label": "Completed <br/> Projects"
     },
     {
-      "value": "9",
-      "afterValue": "k+",
-      "label": "Working <br/>Hours"
-    },
-    {
       "value": "10",
       "afterValue": "+",
-      "label": "Years <br/>Experience"
-    },
-    {
-      "value": "99",
-      "afterValue": "+",
-      "label": "Billion <br/>Invested"
+      "label": "Combined <br/>Experience"
     }
   ]
 }

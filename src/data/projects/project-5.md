@@ -1,7 +1,7 @@
 ---
 #preview
 title: Smart House by Molekule
-image: /img/covers/project5.jpg
+image: /img/project/5.JPG
 category: Interior
 category_slug: interior
 date: may 24 2023

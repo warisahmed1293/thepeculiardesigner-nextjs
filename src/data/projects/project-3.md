@@ -1,7 +1,7 @@
 ---
 #preview
 title: Kemia Industrial Factory
-image: /img/covers/project3.jpg
+image: /img/project/3.PNG
 category: Architecture
 category_slug: architecture
 date: may 24 2023

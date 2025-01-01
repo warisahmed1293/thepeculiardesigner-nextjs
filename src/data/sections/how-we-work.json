@@ -1,21 +1,21 @@
 {
-    "title": "This is How Magic Happens",
+    "title": "How is our work magical",
     "subtitle": "How We Work",
     "items": [
         {
             "title": "High Efficiency",
             "icon": "/img/icons/7.svg",
-            "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore aliqua."
+            "text": "Efficiency at its Best Our design team collaborates closely with both clients and suppliers, working in sync to bring your vision to life."
         },
         {
             "title": "Team of Experts",
             "icon": "/img/icons/8.svg",
-            "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore aliqua."
+            "text": "In-house Construction Team We handle everything in-house, which helps us deliver projects on time and with meticulous attention to detail."
         },
         {
             "title": "Technology",
             "icon": "/img/icons/9.svg",
-            "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore aliqua."
+            "text": "Custom Joinery and Steelwork By partnering with local factories, we ensure your ideas come to life exactly as you imagine, with top-quality craftsmanship and precision."
         }
     ]
 }

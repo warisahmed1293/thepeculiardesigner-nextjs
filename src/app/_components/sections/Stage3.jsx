@@ -21,8 +21,9 @@ const Stage3 = () => {
 
                     <div className="mil-mb-90">
                         <span className="mil-suptitle mil-upper mil-up mil-mb-30">Stage 3</span>
-                        <h2 className="mil-upper mil-up mil-mb-30">Document Preparation</h2>
-                        <p className="mil-up mil-mb-40">Comprehensive document preparation services tailored to meet your project needs. From technical documentation and proposals to reports and presentations, we ensure clarity, precision, and professionalism. Our expertise helps you create impactful, well-structured documents that effectively communicate your goals and ideas, setting the foundation for successful outcomes.</p>
+                        <h2 className="mil-upper mil-up mil-mb-30"> Paper Work</h2>
+                        <p className="mil-up mil-mb-40">Your quotation will be prepared, and at this stage, we’ll introduce you to our trades team, who will conduct site surveys. We’ll have already briefed them on your project needs and shared the plans and drawings to ensure everyone is aligned with our vision.
+                        </p>
                         <div className="mil-up">
                             {/* <Link href={Data.button.link} className="mil-link mil-upper">
                                 {Data.button.label}

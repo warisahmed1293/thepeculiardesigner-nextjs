@@ -1,7 +1,7 @@
 ---
 #preview
 title: Tony's Chocolonely
-image: /img/covers/hero1.jpg
+image: /img/project/6.JPG
 category: Interior
 category_slug: interior
 date: may 24 2023

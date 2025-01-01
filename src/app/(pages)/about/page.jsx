@@ -40,12 +40,12 @@ const About = () => {
       <PageBanner
         pageTitle={"About us"}
         breadTitle={"About"}
-        bgImage={"/img/photo/aboutBaner.png"}
+        bgImage={"/img/project/11.PNG"}
       />
       {/* <ServicesTwoSection />
       <ContactInfoSection /> */}
       <CompanyTwoSlider />
-      <ProcessSlider paddingTop={"0"} />
+      {/* <ProcessSlider paddingTop={"0"} /> */}
       <CompanySlider />
       {/* <PartnersSlider bgStyle={"soft"} /> */}
       {/* <AwardsSection /> */}

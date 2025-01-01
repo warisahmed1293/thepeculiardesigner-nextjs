@@ -1,7 +1,7 @@
 ---
 #preview
 title: Modern architecture
-image: /img/covers/project1.jpg
+image: /img/project/1.JPG
 category: Architecture
 category_slug: architecture
 date: may 24 2023

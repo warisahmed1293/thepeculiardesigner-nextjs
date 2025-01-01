@@ -22,7 +22,23 @@ const Stage1 = () => {
                     <div className="mil-mb-90">
                         <span className="mil-suptitle mil-upper mil-up mil-mb-30">Stage 1</span>
                         <h2 className="mil-upper mil-up mil-mb-30">Consultation</h2>
-                        <p className="mil-up mil-mb-40">Professional consultation services tailored to your needs. Offering expert advice and solutions in web development, mobile app design, CMS customization, and Shopify development. Whether you're starting a project or optimizing an existing one, our personalized approach ensures success. Let's turn your ideas into reality with strategic guidance and technical expertise.</p>
+                        <p className="mil-up mil-mb-40">After your initial enquiry, we’ll give you a phone call to understand your project better. 
+<br/>
+<br/>
+
+Next, we’ll schedule a home consultation, which usually lasts 90 to 120 minutes and comes with a small fee. This is an important step for us to get to know you, your lifestyle, and your vision for the space. We’ll listen closely to your hopes and ideas, as understanding your needs is key to a successful design outcome.
+<br/>
+<br/>
+
+This is also a chance for you to get to know us. A strong working relationship is crucial, and we want you to feel confident and comfortable with your choice of designer.
+<br/>
+<br/>
+
+During the consultation, we’ll take measurements, discuss your budget, and go over preferred timelines.
+<br/>
+<br/>
+
+Afterwards, we’ll send you a proposal outlining the project scope, timeline, budget estimate, and any design or project management fees</p>
                         <div className="mil-up">
                             {/* <Link href={Data.button.link} className="mil-link mil-upper">
                                 {Data.button.label}

@@ -7,7 +7,7 @@ const page = () => {
       <PageBanner
         pageTitle={"Our Story"}
         breadTitle={"Story"}
-        bgImage={"/img/covers/project4.jpg"}
+        bgImage={"/img/project/10.PNG"}
       />
       <div
         style={{ marginTop: "150px", marginBottom: "150px", fontWeight:'700' }}
