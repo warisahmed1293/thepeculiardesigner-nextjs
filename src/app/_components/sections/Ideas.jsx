@@ -43,6 +43,7 @@ const IdeasSection = () => {
 
                         </div>
                     </div>
+                    <img className='mil-softened' src='https://media.istockphoto.com/id/1344939844/photo/hand-holding-drawing-virtual-lightbulb-with-brain-on-bokeh-background-for-creative-and-smart.jpg?s=612x612&w=0&k=20&c=2GLUy6eqCSr0NFRO8CHm8_PUMy9Qc8ryqcsRoe0DEYM='/>
                 </div>
             </section>
             {/* ideas end */}

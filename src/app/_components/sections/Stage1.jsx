@@ -51,20 +51,19 @@ Afterwards, we’ll send you a proposal outlining the project scope, timeline, b
                 <div className="col-lg-6">
 
                     <div className="mil-illustration-slider-frame mil-up mil-mb-90">
-                        <Swiper
+                        <div
                             {...SliderProps.milIllustrationSlider}
                             className="swiper-container mil-illustration-slider"
                         >
-                                {Data.items.map((item, key) => (
-                                <SwiperSlide className="swiper-slide" key={`illustration-slider-item-${key}`}>
+                                
+                                <div className="swiper-slide" key={`illustration-slider-item-`}>
                                     <div className="mil-illustration" data-swiper-parallax-x="50" data-swiper-parallax-scale="1.3">
                                         <div className="mil-image-frame">
-                                            <img src={item.image} alt={item.alt} />
+                                            <img src={'https://thumbs.dreamstime.com/b/three-business-people-discussing-work-together-using-tablet-laptop-taking-notes-modern-office-three-business-people-344204157.jpg'} alt={''} />
                                         </div>
                                     </div>
-                                </SwiperSlide>
-                                ))}
-                        </Swiper>
+                                </div>
+                        </div>
                         {/* <div className="mil-illustration-slider-nav mil-up">
                             <div className="mil-nav-buttons">
                                 <div className="mil-slider-button mil-illustration-prev">Prev</div>

@@ -17,14 +17,13 @@ const Stage2 = () => {
                 <div className="col-lg-5">
 
                     <div className="mil-mb-60">
-                    <span className="mil-suptitle mil-upper mil-up mil-mb-30">Stage 2</span>
+                    <span className="mil-suptitle mil-upper mil-up mil-mb-30">Stage 3</span>
 
-                        <h2 className="mil-upper mil-up mil-mb-30">DESIGNING & CONCEPTUALISE</h2>
-                        <h4 className="mil-upper mil-up mil-mb-10">- Concept</h4>
-                        <p className="mil-up mil-mb-30">Our vision is to design interiors that are not only visually stunning, but also enhance the lives of those who use them. The Peculiar Designer is committed to creating spaces that are as unique as our cliets.</p>
-                        <h4 className="mil-upper mil-up mil-mb-10">- Detail</h4>
-                        <p className="mil-up mil-mb-40">After presenting the concept, we dive into the details, ensuring every element is thoughtfully considered. Our team then prepares bespoke cabinetry drawings, joinery and hardware specifications, plumbing plans, lighting design, and electrical layouts to finalise your proposal.
-                        </p>
+
+                        <h2 className="mil-upper mil-up mil-mb-30">Design details</h2>
+                        
+                        <p className="mil-up mil-mb-30">After presenting the concept, we dive into the details, ensuring every element is thoughtfully considered. Our team then prepares bespoke cabinetry drawings, joinery and hardware specifications, plumbing plans, lighting design, and electrical layouts to finalise your proposal</p>
+                       
                         {/* {Data.signature != undefined &&
                         <div className="row align-items-center mil-up">
                             <div className="col-lg-5 mil-mb-30">
@@ -40,20 +39,20 @@ const Stage2 = () => {
                 <div className="col-lg-6">
 
                     <div className="mil-illustration-slider-frame mil-up mil-mb-90">
-                        <Swiper
+                        <div
                             {...SliderProps.milIllustrationSlider}
                             className="swiper-container mil-illustration-slider"
                         >
-                                {Data.items.map((item, key) => (
-                                <SwiperSlide className="swiper-slide" key={`illustration-slider-item-${key}`}>
+                                
+                                <div className="swiper-slide">
                                     <div className="mil-illustration" data-swiper-parallax-x="50" data-swiper-parallax-scale="1.3">
                                         <div className="mil-image-frame">
-                                            <img src={item.image} alt={item.alt} />
+                                            <img src='https://thumb.cadbull.com/img/product_img/original/bedroom_interior_design_2d_view_12062019105737.png'/>
                                         </div>
                                     </div>
-                                </SwiperSlide>
-                                ))}
-                        </Swiper>
+                                </div>
+                                
+                        </div>
                         {/* <div className="mil-illustration-slider-nav mil-up">
                             <div className="mil-nav-buttons">
                                 <div className="mil-slider-button mil-illustration-prev">Prev</div>

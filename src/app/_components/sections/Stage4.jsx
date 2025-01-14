@@ -18,12 +18,11 @@ const Stage4 = () => {
 
                     <div className="mil-mb-60">
                     <span className="mil-suptitle mil-upper mil-up mil-mb-30">Stage 4</span>
-                        <h2 className="mil-upper mil-up mil-mb-30">Design Development</h2>
-                    <p className="mil-up mil-mb-30">Our in-house construction team will start and the magic will commence. Soon after, the nitty gritty part is over, installation of joinery and furniture will start. </p>
+                        <h2 className="mil-upper mil-up mil-mb-30">The build</h2>
+                    <p className="mil-up mil-mb-30">Our in-house construction team is ready to bring your vision to life. Rest assured, we ensure that design and construction are always perfectly aligned. You won’t need to worry about electrical plans or intricate joinery details – we’ve got it all covered for you. </p>
                         <h4 className="mil-upper mil-up mil-mb-10">- Construction</h4>
-                        <p className="mil-up mil-mb-30">Your designer and Project Manager will ensure that this stage runs smoothly and resolve any issues that arise.</p>
-                        <h4 className="mil-upper mil-up mil-mb-10">- Installation</h4>
-                        <p className="mil-up mil-mb-40">Bespoke joinery, furniture, lighting and soft furnishings will be installed with meticulous precision to create visual cohesion in your space.</p>
+                        <p className="mil-up mil-mb-30">Our designer and Project Manager will work collaboratively to ensure this stage progresses seamlessly, addressing and resolving any issues that may arise promptly.</p>
+                       
                         <h4 className="mil-upper mil-up mil-mb-10">- Styling</h4>
                         <p className="mil-up mil-mb-40">Prior to handover day, our team of designers will have carefully curated a selection of luxury accessories and artwork to dress the space. These finishing touches are an integral component part required to complete the beautiful aesthetic.</p>
                         {/* {Data.signature != undefined &&

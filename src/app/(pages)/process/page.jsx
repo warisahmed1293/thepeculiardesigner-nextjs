@@ -28,8 +28,8 @@ const OurProcess = () => {
       />
       <AdvantagesProcess/>
       <Stage1 />
-      <Stage2 />
       <Stage3 />
+      <Stage2 />
       <Stage4/>
     
     </>

@@ -20,9 +20,10 @@ const Stage3 = () => {
                 <div className="col-lg-5">
 
                     <div className="mil-mb-90">
-                        <span className="mil-suptitle mil-upper mil-up mil-mb-30">Stage 3</span>
-                        <h2 className="mil-upper mil-up mil-mb-30"> Paper Work</h2>
-                        <p className="mil-up mil-mb-40">Your quotation will be prepared, and at this stage, we’ll introduce you to our trades team, who will conduct site surveys. We’ll have already briefed them on your project needs and shared the plans and drawings to ensure everyone is aligned with our vision.
+                        <span className="mil-suptitle mil-upper mil-up mil-mb-30">Stage 2</span>
+                        <h2 className="mil-upper mil-up mil-mb-30">Concept</h2>
+                        <p className="mil-up mil-mb-40">"We work with you to explore different materials, textures and colours to create beautiful and functional spaces"
+
                         </p>
                         <div className="mil-up">
                             {/* <Link href={Data.button.link} className="mil-link mil-upper">
@@ -36,20 +37,20 @@ const Stage3 = () => {
                 <div className="col-lg-6">
 
                     <div className="mil-illustration-slider-frame mil-up mil-mb-90">
-                        <Swiper
+                        <div
                             {...SliderProps.milIllustrationSlider}
                             className="swiper-container mil-illustration-slider"
                         >
-                                {Data.items.map((item, key) => (
-                                <SwiperSlide className="swiper-slide" key={`illustration-slider-item-${key}`}>
+                              
+                                <div className="swiper-slide" >
                                     <div className="mil-illustration" data-swiper-parallax-x="50" data-swiper-parallax-scale="1.3">
                                         <div className="mil-image-frame">
-                                            <img src={item.image} alt={item.alt} />
+                                            <img src='https://media.istockphoto.com/id/1329934993/photo/mood-board-sample-board-and-furniture-board-concept-with-samples-for-interior-design-arranged.jpg?s=612x612&w=0&k=20&c=sJACzke-wA1qYZeZumlJs2T94MKOC3QQKNa6v-mbOU4=' />
                                         </div>
                                     </div>
-                                </SwiperSlide>
-                                ))}
-                        </Swiper>
+                                </div>
+                                
+                        </div>
                         {/* <div className="mil-illustration-slider-nav mil-up">
                             <div className="mil-nav-buttons">
                                 <div className="mil-slider-button mil-illustration-prev">Prev</div>
