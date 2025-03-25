@@ -59,7 +59,7 @@ Afterwards, we’ll send you a proposal outlining the project scope, timeline, b
                                 <div className="swiper-slide" key={`illustration-slider-item-`}>
                                     <div className="mil-illustration" data-swiper-parallax-x="50" data-swiper-parallax-scale="1.3">
                                         <div className="mil-image-frame">
-                                            <img src={'https://thumbs.dreamstime.com/b/three-business-people-discussing-work-together-using-tablet-laptop-taking-notes-modern-office-three-business-people-344204157.jpg'} alt={''} />
+                                            <img src={'https://level-studio.ca/wp-content/uploads/2024/10/LEVEL-STUDIO-ACTION-3.jpg'} alt={''} />
                                         </div>
                                     </div>
                                 </div>

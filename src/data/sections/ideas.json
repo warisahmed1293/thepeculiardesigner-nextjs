@@ -10,22 +10,22 @@
     {
       "icon": "/img/icons/3.svg",
       "link": "/services/service-1",
-      "label": "Architecture"
+      "label": "Interior Design"
     },
     {
       "icon": "https://sensational-puppy-893ca9.netlify.app/img/icons/lamp.png",
       "link": "/services/service-1",
-      "label": "Interiors"
+      "label": "Construction"
     },
     {
       "icon": "/img/icons/5.svg",
       "link": "/services/service-1",
-      "label": "Planning"
+      "label": "Project Planning"
     },
     {
       "icon": "/img/icons/14.svg",
       "link": "/services/service-1",
-      "label": "Construction"
+      "label": "Interior Architecture"
     }
   ]
 }

@@ -47,7 +47,7 @@ const Stage2 = () => {
                                 <div className="swiper-slide">
                                     <div className="mil-illustration" data-swiper-parallax-x="50" data-swiper-parallax-scale="1.3">
                                         <div className="mil-image-frame">
-                                            <img src='https://thumb.cadbull.com/img/product_img/original/bedroom_interior_design_2d_view_12062019105737.png'/>
+                                            <img src='https://dcfwfuaf91uza.cloudfront.net/residential/lp/wp-content/uploads/sites/2/Bachelor-of-Science-in-Interior-Design.jpg'/>
                                         </div>
                                     </div>
                                 </div>
